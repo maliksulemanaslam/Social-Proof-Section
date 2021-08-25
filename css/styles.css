@@ -1,0 +1,254 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -10px 0, 450px 40px;
+}
+
+span {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  position: relative;
+  top: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+
+.card {
+  border-style: none;
+}
+
+.card-1-body {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 3%;
+}
+
+.card-2-body {
+  margin-bottom: 4%;
+}
+
+.card-3-body {
+  margin-bottom: 3%;
+}
+
+.row {
+  width: 80%;
+}
+
+.first-card {
+  height: 100%;
+  width: 88%;
+  background-color: inherit;
+}
+
+.first-card-h5 {
+  font-size: 2.4rem;
+  width: 75%;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: inline-block;
+}
+
+.first-card-p {
+  width: 90%;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 1.5%;
+  display: inline-block;
+}
+
+.smaller-h5 {
+  display: inline-block;
+  width: 50%;
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 7px;
+}
+
+.stars-card {
+  height: 100%;
+  margin-left: -15%;
+  background-color: inherit;
+}
+
+.first-row {
+  background-color: hsl(300, 24%, 96%);
+  width: 75%;
+  border-radius: 0.35rem;
+  margin-bottom: 3%;
+  padding-left: 7%;
+  padding-top: 1.5%;
+}
+
+.second-row {
+  margin-left: 10%;
+  background-color: hsl(300, 24%, 96%);
+  width: 80%;
+  border-radius: 0.35rem;
+  margin-bottom: 3%;
+  padding-left: 7%;
+  padding-top: 1.5%;
+}
+
+.first-row-stars {
+  display: inline-block;
+  margin-right: 6%;
+}
+
+.person-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 3% 6%;
+}
+
+.card-2 {
+  position: relative;
+  top: 15px;
+  left: 30px;
+}
+
+.card-3 {
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.second-card-p {
+  display: inline-block;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.third-card-p {
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  margin: 6% 5% 0;
+}
+
+.second-row-stars {
+  display: inline-block;
+  margin-right: 6%;
+}
+
+.third-row {
+  margin-left: 20%;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.35rem;
+  margin-bottom: 3%;
+  padding-left: 7%;
+  padding-top: 1.5%;
+}
+
+.third-row-stars {
+  display: inline-block;
+  margin-right: 6%;
+}
+
+.buyer-card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.55rem;
+  margin-top: 20%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:992px) {
+  body {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: -10px -10px, 600px 840px;
+  }
+
+  .first-card {
+    margin-left: 5%;
+  }
+
+  .first-card-p {
+    width: 75%;
+    margin-top: 5%;
+    margin-top: 5%;
+  }
+
+  .first-row-stars {
+    margin-bottom: 4%;
+    display: block;
+  }
+
+  .second-row-stars {
+    margin-bottom: 4%;
+    display: block;
+  }
+
+  .third-row-stars {
+    margin-bottom: 4%;
+    display: block;
+  }
+
+  .second-card-p {
+    margin-left: -6%;
+  }
+
+  .stars-card {
+    width: 70%;
+    margin-left: 16%;
+  }
+
+  .buyer-card {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 19%;
+  }
+
+  .card-1 {
+    text-align: left;
+  }
+
+  .card-2 {
+    position: static;
+    text-align: left;
+  }
+
+  .card-3 {
+    position: static;
+    text-align: left;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .first-row {
+    width: 95%;
+  }
+
+  .second-row {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .third-row {
+    width: 95%;
+    margin-left: 0;
+  }
+}
